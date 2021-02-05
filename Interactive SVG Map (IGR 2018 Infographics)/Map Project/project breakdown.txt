@@ -1,0 +1,30 @@
+Breakdown of How I accomplished the project
+
++I made use of Scalable vector graphics to generate the Nigerian map
+
++I made of HTML & CSS for styling each of the portions on the map for the 36 different states including FCT 
+
++I made use of this link to get precise style colors for the 36 states including FCT:
+https://www.computerhope.com/htmcolor.htm
+
+
++I made use of matplotlib to graph the pie chart using the assigned IGR-2018 statistics
+
+
+        Matplotlib code I used:
+
+import matplotlib.pyplot as plt
+#IGR 2018 on Y-axis
+Y = [3381405773.46,3595598485.61,3030430890.30,4827469298.12,14834904447.49]
+#IGR 2018 Quarters
+X = ['Q1','Q2','Q3','Q4','Full Year']
+#Sets a title for the pie chart
+plt.title('IGR 2018 Pie chart Statistics for Abia State')
+#Plots the pie chart
+plt.pie(Y,labels=X)
+#Displays the pie chart figure
+plt.show()
+
+This is for Abia state Plot
+
+
