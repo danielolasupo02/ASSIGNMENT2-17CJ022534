@@ -1,2 +1,2 @@
 # ASSIGNMENT2-17CJ022534
-Interactive Web With Infographics using SVG, HTML &amp; CSS
+Interactive Map Design With Infographics using XML, HTML& CSS
